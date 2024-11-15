@@ -34,14 +34,14 @@ function ionize<T>(store: Store<T>): T {
 	return variable;
 }
 
-function ion(initialValue: string) {
+function ion<T>(initialValue: T): Store<T> {
 	let value = $state(initialValue);
 
-	function store() {
+	function store(): T {
 		return value;
 	}
 
-	store.set = function (newValue: string) {
+	store.set = function (newValue: T) {
 		value = newValue;
 	};
 
