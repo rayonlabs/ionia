@@ -1,7 +1,7 @@
 ![ParachutesAI](static/ionia.jpg)
 
 # Ionia
-[ionia](https//ionia.dev)
+[Ionia Website](https://ionia.dev)
 
 📃 Flexible, Atomic Global State Management for Svelte 5 Rune
 
