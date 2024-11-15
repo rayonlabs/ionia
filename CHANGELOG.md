@@ -1,3 +1,15 @@
+# v0.0.6 (Fri Nov 15 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Complete Rework of Ionia API ([@bonoliver](https://github.com/bonoliver))
+
+#### Authors: 1
+
+- Oliver ([@bonoliver](https://github.com/bonoliver))
+
+---
+
 # v0.0.5 (Fri Nov 15 2024)
 
 #### ⚠️ Pushed to `main`
