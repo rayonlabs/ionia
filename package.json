@@ -1,6 +1,6 @@
 {
 	"name": "ionia",
-	"description": "📃 Flexible global rune-based state management for Svelte 5+",
+	"description": "Flexible, Atomic Global State Management for Svelte 5 Runes.",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
@@ -14,9 +14,9 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
 	},
-	"author": "Oliver Isaac",
+	"author": "rayonlabs",
 	"license": "MIT",
-	"homepage": "https://github.com/oliver-isaac/sappho",
+	"homepage": "https://ionia.dev",
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
@@ -58,7 +58,7 @@
 		"typescript-eslint": "^8.0.0",
 		"vite": "^5.0.11"
 	},
-	"repository": "oliver-isaac/sappho",
+	"repository": "rayonlabs/ionia",
 	"auto": {
 		"plugins": [
 			"npm",
