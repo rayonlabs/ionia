@@ -43,18 +43,23 @@ function ion<T>(valueOrFn: ValueOrFn<T>): WritableIon<T> | ReadonlyIon<T> {
 	return store;
 }
 
-const ionWithReset = <T>(value: T) => {
+type WithReset<T> = {
+	$: T;
+	reset: () => void;
+};
+
+const ionWithReset = <T>(value: T): WithReset<T> => {
 	const initial = value;
 	let state = $state(value);
 
 	return {
-		get $() {
+		get $(): T {
 			return state;
 		},
 		set $(val: T) {
 			state = val;
 		},
-		reset() {
+		reset(): void {
 			state = initial;
 		}
 	};
