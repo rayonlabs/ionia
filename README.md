@@ -30,7 +30,7 @@ Use them in your components:
 ### Further Examples
 
 ```typescript
-// stores.ts
+// stores.svelte.ts
 import { ion, ionReadOnly, ionWithReset, ionWithStorage } from 'ionia';
 
 // Primary Store
