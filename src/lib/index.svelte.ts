@@ -1,4 +1,4 @@
-export type Getter = <T>(store: { $: T }) => T;
+type Getter = <T>(store: { $: T }) => T;
 type DerivedFn<T> = (get: Getter) => T;
 type ValueOrFn<T> = T | DerivedFn<T>;
 
@@ -121,3 +121,4 @@ const ionWithStorage = <T>(key: string, initialValue: T) => {
 };
 
 export { ion, ionWithStorage, ionWithReset, ionReadOnly };
+export type { WithReset, ReadOnlyState, WritableIon, ReadonlyIon, Getter, DerivedFn, ValueOrFn };
